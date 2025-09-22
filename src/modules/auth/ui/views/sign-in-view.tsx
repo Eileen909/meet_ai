@@ -203,27 +203,19 @@ export const SignInView = () => {
             </form>
           </Form>
 
-          <div className="relative hidden md:flex flex-col gap-y-6 items-center justify-center bg-gradient-to-br from-green-500 to-green-900 p-8">
-            <div className="flex flex-col items-center gap-4">
-              <div className="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm">
-                <img src="/logo.svg" alt="Meet.AI Logo" className="h-16 w-16" />
-              </div>
-              <div className="text-center">
-                <h2 className="text-3xl font-bold text-white mb-2">Meet.AI</h2>
-                <p className="text-white/80 text-lg">
-                  Connect. Collaborate. Create.
+          <div className="bg-radial from-sidebar-accent to-sidebar relative hidden md:flex flex-col gap-y-4 items-center justify-center">
+                <img src="/logo.svg" alt="Image" className="h-[92px] w-[92px]" />
+                <p className="text-2xl font-semibold text-white">
+                  Meet.AI
                 </p>
-              </div>
-            </div>
           </div>
         </CardContent>
       </Card>
-      <div
-        className="text-muted-foreground *:[a]:hover:text-primary text-center text-xs 
-      text-balance *:[a]:underline *:[a]:underline-offset-4"
-      >
-        By clicking continue, you agree to our <a href="#">Terms of Service</a>{" "}
-        and <a href="#"> privacy policy</a>
+
+      <div className="text-muted-foreground *:[a]:hover:text-primary text-center text-xs 
+      text-balance *:[a]:underline *:[a]:underline-offset-4">
+        By clicking continue, you agree to our <a href="#">Terms of Service</a> and <a
+        href="#"> Privacy Policy</a>
       </div>
     </div>
   );
