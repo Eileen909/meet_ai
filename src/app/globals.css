@@ -125,3 +125,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer base {
+  bitton:not(:disabled),
+  [role="button"]:not(:disabled){
+    cursor: pointer;
+  }
+}
