@@ -3,7 +3,7 @@ import { loadSearchParams } from "@/modules/agents/params";
 import { AgentsListHeader } from "@/modules/agents/ui/components/agents-list-header";
 import { AgentsView, AgentsViewError, AgentsViewLoading } from "@/modules/agents/ui/views/agents-view";
 import { getQueryClient, trpc } from "@/trpc/server";
-import { List } from "@radix-ui/react-tabs";
+// import { List } from "@radix-ui/react-tabs";
 import { dehydrate, HydrationBoundary } from "@tanstack/react-query";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";

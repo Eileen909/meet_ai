@@ -10,8 +10,8 @@ import { LoadingState } from "@/components/loading-state";
     const {data} = useSuspenseQuery(trpc.meetings.getMany.queryOptions({}));
 
     return (
-        <div>
-            {JSON.stringify(data)}
+        <div /* className="overflow-x-scroll" */>
+            {/* {JSON.stringify(data)} */}
         </div>
     );
  };
