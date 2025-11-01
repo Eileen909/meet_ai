@@ -114,5 +114,5 @@ export const AgentIdViewError= ()=>{
         title="Error Loading Agent"
         description="Somthing went wrong"
     />
-    )
-}
+    );
+};
