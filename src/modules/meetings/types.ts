@@ -11,7 +11,7 @@ export enum MeetingStatus{
     Processing="processing",
     Cancelled="cancelled",
 };
-export type StreamTranscriptionItem={
+export type StreamTranscriptItem={
     speaker_id: string;
     type: string;
     text: string;
