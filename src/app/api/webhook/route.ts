@@ -43,7 +43,7 @@ export async function POST(req: NextRequest){
 
     const eventType= (payload as Record<string, unknown>)?.type;
 
-    if (eventType === "cal.session_started"){
+    if (eventType === "call.session_started"){
         const event= payload as CallSessionStartedEvent;
         const meetingId = event.call.custom?.meetingId;
 
@@ -159,3 +159,5 @@ export async function POST(req: NextRequest){
 
     return NextResponse.json({status:"ok"});
 }
+
+
